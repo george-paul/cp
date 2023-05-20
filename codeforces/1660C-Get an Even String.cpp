@@ -1,11 +1,11 @@
 // WA
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 
 void solve(){
 	
-	
+	cout<<"hello";
 }
 
 int main()
@@ -18,5 +18,4 @@ int main()
 	while(t--){
 		solve();
 	}
-	
 }
