@@ -1,17 +1,22 @@
 #include <iostream>
 #include <vector>
-#include <array>
 using namespace std;
-
-using ll = long long;
-
-// ------------ <Verdict> ------------
 
 void solve()
 {
-	
+	int n;
+	cin>>n;
+	int total = 0;
+	for(int i=0; i<n; i++)
+	{
+		int a,b;
+		cin>>a>>b;
+		if(a>b) total++;
+	}
+	cout<<total;
 }
 
+// --- AC ---
 
 int main()
 {

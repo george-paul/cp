@@ -1,15 +1,28 @@
 #include <iostream>
 #include <vector>
-#include <array>
 using namespace std;
-
-using ll = long long;
-
-// ------------ <Verdict> ------------
 
 void solve()
 {
-	
+	int a,b,c;
+	cin>>a>>b>>c;
+	if(b+c==a)
+	{
+		cout<<"YES";
+		return;
+	}
+	if(a+c==b)
+	{
+		cout<<"YES";
+		return;
+	}
+	if(a+b==c)
+	{
+		cout<<"YES";
+		return;
+	}
+	cout<<"NO";
+	return;
 }
 
 
